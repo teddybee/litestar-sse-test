@@ -1,0 +1,7 @@
+.venv/
+flagged
+__pycache__
+.pytest_cache/
+/data/
+/build/
+/dist/

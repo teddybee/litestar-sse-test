@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "server"
+version = "0.1.0"
+description = ""
+authors = ["teddybee <11610010+teddybee@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+startapi = "server.main:start"
+
+[tool.poetry.dependencies]
+python = ">=3.12, <3.13"
+litestar = "^2.9.0"
+uvicorn = "^0.30.1"
+python-dotenv = "^1.0.1"
+typer = "^0.12.3"
+more-itertools = "^10.3.0"
+uuid = "^1.30"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
